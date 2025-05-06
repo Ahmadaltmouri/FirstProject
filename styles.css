@@ -1,0 +1,24 @@
+h1 {
+    font-size: 2em; /* تحدد حجم الخط ليكون ضعف الحجم الافتراضي للنص */
+    color: red; /* تحدد لون النص باستخدام كود اللون السداسي العشري (Hexadecimal)، وهو لون رمادي غامق */
+    text-align: center; /* تجعل النص في العنصر <h1> يتمركز أفقياً في المنتصف */
+    margin: 20px 0; /* تضيف مسافة خارجية (Margin) بمقدار 20 بكسل أعلى وأسفل العنصر، و0 بكسل على الجانبين */
+}
+
+p {
+    font-size: 3em;
+    color: rgb(62, 139, 81);
+    text-align: center;
+    
+    background-color: aquamarine;
+    padding: 10px 20px 30px 40px;
+    margin: -10px 20px; /* تصحيح: مسافة سالبة في الأعلى و 20px في اليمين */
+    
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(255, 0, 234) rgb(119, 128, 0) rgb(21, 21, 116) rgb(156, 74, 145);
+    
+    /* تصحيح outline */
+    outline: 5px solid red; /* باستخدام outline مع جميع الخصائص بشكل صحيح */
+  }
+  
